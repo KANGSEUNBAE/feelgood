@@ -1,119 +1,119 @@
 <!DOCTYPE html>
 <html lang="ko">
 <head>
+  <link rel="shortcut icon" href="./img/favicon.jpg">
+  <link rel="apple-touch-icon" sizes="57x57" href="/apple-icon-57x57.png">
+  <link rel="apple-touch-icon" sizes="60x60" href="/apple-icon-60x60.png">
+  <link rel="apple-touch-icon" sizes="72x72" href="/apple-icon-72x72.png">
+  <link rel="apple-touch-icon" sizes="76x76" href="/apple-icon-76x76.png">
+  <link rel="apple-touch-icon" sizes="114x114" href="/apple-icon-114x114.png">
+  <link rel="apple-touch-icon" sizes="120x120" href="/apple-icon-120x120.png">
+  <link rel="apple-touch-icon" sizes="144x144" href="/apple-icon-144x144.png">
+  <link rel="apple-touch-icon" sizes="152x152" href="/apple-icon-152x152.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-icon-180x180.png">
+  <link rel="icon" type="image/png" sizes="192x192"  href="/android-icon-192x192.png">
+  <link rel="manifest" href="/manifest.json">
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
-  <title>홈클리닝 서비스 문의</title>
+  <meta name="viewport" content="width=device-width, initial-scale = 1.0, 
+  maximum-scale=1.0, user-scalable=no" /> 
+  <meta content="yes" name="apple-mobile-web-app-capable" />
+  <meta content="minimum-scale=1.0, width=device-width, maximum-scale=1, user-scalable=no" name="viewport" />
+  <title>FEEL HOME CARE</title>
   <link rel="stylesheet" href="./css/style.css">
-  <style>
-    body {
-      font-family: 'Arial', sans-serif;
-      background-color: #f9f9f9;
-      margin: 0;
-      padding: 0;
-    }
-
-    .container {
-      max-width: 800px;
-      margin: 0 auto;
-      padding: 20px;
-      background-color: #fff;
-      box-shadow: 0px 0px 15px rgba(0,0,0,0.1);
-    }
-
-    h1 {
-      text-align: center;
-      color: #333;
-      margin-bottom: 20px;
-    }
-
-    .form-group {
-      margin-bottom: 15px;
-    }
-
-    .form-group label {
-      display: block;
-      font-weight: bold;
-      margin-bottom: 5px;
-      color: #555;
-    }
-
-    .form-group input, .form-group textarea {
-      width: 100%;
-      padding: 10px;
-      border: 1px solid #ddd;
-      border-radius: 5px;
-      font-size: 16px;
-    }
-
-    .form-group textarea {
-      height: 150px;
-    }
-
-    .form-group button {
-      display: block;
-      width: 100%;
-      padding: 10px;
-      background-color: #007BFF;
-      color: white;
-      border: none;
-      border-radius: 5px;
-      font-size: 18px;
-      cursor: pointer;
-    }
-
-    .form-group button:hover {
-      background-color: #0056b3;
-    }
-
-    .contact-info {
-      margin-top: 30px;
-      text-align: center;
-    }
-
-    .contact-info p {
-      margin: 5px 0;
-      color: #555;
-    }
-  </style>
+  <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css"/>
+  <script
+  src="https://code.jquery.com/jquery-2.2.4.min.js"
+  integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44="
+  crossorigin="anonymous"></script>
+ <script src="./js/animation.js"></script>
+ <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
 </head>
-<body>
+<body >
+  <header></header>
+    <h1>
+      <a href="index.html">
+        <img src="./img/logo.png" alt="">
+      </a>
+    </h1> 
 
-  <div class="container">
-    <h1>홈클리닝 서비스 문의</h1>
+     
     
-    <form action="submit_form.php" method="post">
-      <div class="form-group">
-        <label for="name">이름</label>
-        <input type="text" id="name" name="name" placeholder="이름을 입력하세요" required>
-      </div>
+  </header>
+<h1>
+  ※ 현재 접속이 지연상태입니다. 직접 문의주시기 바랍니다 ※
+  <br>
+<br>
+  대표전화 : 010-8520-0234
+  <br>
+이메일 : Sabaljg@naver.com
+</h1>
 
-      <div class="form-group">
-        <label for="email">이메일</label>
-        <input type="email" id="email" name="email" placeholder="이메일 주소를 입력하세요" required>
-      </div>
+  <footer>
+    <div class="fwrap">
+    <div>
+      <h2>
+        <a href="index.html">
+            <img src="./img/logo2.png" alt="로고">
+        </a>
+    </h2>
+    feel홈케어<br>
+    대표자 : 강호경 | 사업자등록번호 : 218-01-67079<br>
 
-      <div class="form-group">
-        <label for="phone">연락처</label>
-        <input type="tel" id="phone" name="phone" placeholder="연락처를 입력하세요" required>
-      </div>
+ 청소업,인테리어업 신고
+ <br>
+ 주소:
+    해운대구 해운대로 785 까르띠움 414호<br>
 
-      <div class="form-group">
-        <label for="message">문의 사항</label>
-        <textarea id="message" name="message" placeholder="문의 내용을 입력하세요" required></textarea>
-      </div>
 
-      <div class="form-group">
-        <button type="submit">문의하기</button>
-      </div>
-    </form>
 
-    <div class="contact-info">
-      <p>전화: 1688-2573</p>
-      <p>이메일: admin@ack.com</p>
+  </p>
+   
     </div>
+
+    <div>
+
+      <span>연락처</span>
+      <P>
+        T.010-8520-0234 <br>
+        Sabaljg@naver.com
+      </P>
+    </div>
+    
+
   </div>
+   </footer>
+
+   <script src="./js/sidebar.js"></script>
+  
+   <script>
+    
+
+    var swiper = new Swiper(".mySwiper", {
+        slidesPerView: 1,  //초기값 설정 모바일값이 먼저!!
+        spaceBetween: 10,
+        pagination: {
+          el: ".swiper-pagination",
+          clickable: true,
+        },
+        breakpoints: {
+        
+          768: {
+            slidesPerView: 2,  //브라우저가 768보다 클 때
+            spaceBetween: 40,
+          },
+          1024: {
+            slidesPerView: 3,  //브라우저가 1024보다 클 때
+            spaceBetween: 50,
+          },
+        },
+      });
+      
+
+  </script>
+
 
 </body>
+
 </html>
+
